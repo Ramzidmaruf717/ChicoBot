@@ -279,6 +279,9 @@ globalic_menu = ReplyKeyboardMarkup(
         [
             KeyboardButton(text="Kiyimlar"),
             KeyboardButton(text="Yumshoq Oyinchoqlar")
+        ],
+        [
+            KeyboardButton(text="Avto Kreslolar")
         ]
 
     ], resize_keyboard=True

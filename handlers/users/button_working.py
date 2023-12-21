@@ -9,6 +9,11 @@ async def main_buttons_handler(msg: types.message):
     text = "bosh menyusiga hush kelibsiz"
     await msg.answer(text=text,reply_markup=chicco_main_menu)
 
+@dp.message_handler(text="Avto Kreslolar")
+async def main_buttons_handler(msg: types.message):
+    text = "avtokreslolarni turini va narxini kormoqchi bolsangiz @Maruf717 telegramiga murojat qiling"
+    await msg.answer(text=text)
+
 @dp.message_handler(text="Kiyimlar")
 async def main_buttons_handler(msg: types.message):
     text = "Kiyimlarni turini va narxini kormoqchi bolsangiz @Maruf717 telegramiga murojat qiling"
